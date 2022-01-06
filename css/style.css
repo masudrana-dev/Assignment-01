@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Poppins:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&family=Titillium+Web:wght@300;400;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1, h2, h3, h4,p{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+}
+#whole-area {
+    display: flex;
+    padding: 30px;
+  }
+  .image-part {
+    width: 100%;
+  }
+  .image-part img {
+    width: 80%;
+    margin-left: -75px;
+  }
+  .header-title {
+	padding: 0px 200px 0px 200px;
+}
+  .header-title h1 {
+      position: relative;
+    font-size: 50px;
+    font-weight: 700;
+  }
+  .scroll {
+	display: block;
+	text-decoration: none;
+	padding-top: 10px;
+	color: #333;
+}
+  .header-title h1::after {
+	position: absolute;
+	left: -20px;
+	top: 22px;
+	height: 111px;
+	width: 5px;
+	background: tomato;
+	content: "";
+}
+  .orange-color {
+    color: orange;
+  }
+  .header-title p {
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0px 210px 0px 0px;
+  }
+  .button {
+    text-decoration: none;
+    border: 1px solid tomato;
+    padding: 10px 20px;
+    background: tomato;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  /* mission part css  */
+  #Mission {
+	padding-bottom: 70px;
+}
+.mission-title {
+    width: 100%;
+  }
+  .mission-title h1 {
+    text-align: center;
+    font-size: 50px;
+  }
+  .box {
+    border: 1px solid;
+    padding: 52px;
+    border-radius: 10px;
+    text-align: center;
+    background: skyblue;
+    padding: 40px 50px 40px 50px;
+    margin-left: 1%;
+margin-right: 1%;
+margin-top: 30px;
+  }
+  .box img {
+    width: 25%;
+  }
+  .box h4 {
+    font-size: 20px;
+  }
+  .box-area{
+      display: flex;
+  }
+  .box-area {
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+  .box-1 {
+	background: #EDF5F6;
+	border-color: #EDF5F6;
+}
+  .box-2 {
+	background: #FFEEEE;
+	border-color: #FFEEEE;
+}
+  .box-3 {
+	background: #fFF4D6;
+	border-color: #FFF4D6;
+}
+  /* mission part css  */
+  /* develop part css  */
+  #develop {
+	display: flex;
+	padding: 50px 0;
+	background-image: url(../images/shapes/shape-2.png);
+	background-position: 9% 0;
+	background-repeat: no-repeat;
+	background-size: 200px 450px;
+}
+.develop-image-part {
+    width: 100%;
+  }
+  .develop-image-part img {
+    width: 50%;
+    margin-left: 30%;
+  }
+  .develop-content {
+    padding-right: 328px;
+  }
+  .develop-content h2 {
+    font-size: 40px;
+    padding-top: 50px;
+  }
+  .develop-content p {
+    font-size: 20px;
+  }
+  /* develop part css  */
+  /* community css */
+    #community{
+        display: flex;
+        padding: 50px 0;
+        background-image: url(../images/shapes/shape-2\(2\).png);
+        background-size: 350px 518px;
+        background-position: 97% 0;
+        background-repeat: no-repeat;
+        
+    }
+    .community-content h2 {
+        font-size: 40px;
+        padding-bottom: 20px;
+      }
+      .community-content p {
+        font-size: 20px;
+        padding: 0px 260px 20px 0px;
+      }
+      .community-content {
+        margin-left: 12%;
+    }
+    .community-image-part {
+      width: 100%;
+    }
+    .community-image-part img {
+      width: 80%;
+    }
+  /* community css */
+  /* contact part css  */
+  
+.social-links {
+  display: flex;
+  text-align: center;
+
+}
+.social-links {
+}
+.icon {
+  width: 100%;
+}
+.icon img {
+  width: 15%;
+}
+.icon h4 {
+	padding-top: 15px;
+}
+#contact {
+  padding: 100px 0;
+}
+.contact-title h1 {
+  font-size: 50px;
+}
+.contact-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+  /* contact part css  */
+  #footer {
+    text-align: center;
+    padding: 30px 0;
+    background: #333;
+    color: #fff;
+  }
+  #footer h4 {
+    font-size: 40px;
+  }
+  #footer h4 spa {
+  }
+  .footer-2022 {
+    color: #FF5959;
+  }
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
