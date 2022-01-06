@@ -60,7 +60,14 @@ h1, h2, h3, h4,p{
     display: inline-block;
     margin-top: 10px;
     margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    transition: 0.3s;
   }
+  .button:hover {
+	border-color: tomato;
+	background: #fff;
+	color: tomato;
+}
 
   /* mission part css  */
   #Mission {
@@ -81,9 +88,14 @@ h1, h2, h3, h4,p{
     background: skyblue;
     padding: 40px 50px 40px 50px;
     margin-left: 1%;
-margin-right: 1%;
-margin-top: 30px;
+    margin-right: 1%;
+    margin-top: 30px;
+    transition: 0.3s;
   }
+  .box:hover {
+	transform: scale(1.1);
+	box-shadow: 10px 10px 40px gray;
+}
   .box img {
     width: 25%;
   }
@@ -115,27 +127,28 @@ margin-top: 30px;
 	display: flex;
 	padding: 50px 0;
 	background-image: url(../images/shapes/shape-2.png);
-	background-position: 9% 0;
+	background-position: 7% 0;
 	background-repeat: no-repeat;
-	background-size: 200px 450px;
+	background-size: 200px 575px;
 }
 .develop-image-part {
     width: 100%;
   }
   .develop-image-part img {
-    width: 50%;
+    width: 80%;
     margin-left: 30%;
   }
   .develop-content {
-    padding-right: 328px;
-  }
+	margin-left: 20%;
+}
   .develop-content h2 {
     font-size: 40px;
     padding-top: 50px;
   }
   .develop-content p {
-    font-size: 20px;
-  }
+	font-size: 20px;
+	padding: 20px 150px 20px 0;
+}
   /* develop part css  */
   /* community css */
     #community{
